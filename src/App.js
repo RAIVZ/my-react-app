@@ -29,5 +29,9 @@ const Main = () => (
   </main>
 );
 
-
+const Footer = () => (
+  <footer>
+    © 2025 Ваша компания
+  </footer>
+);
 export default App; 
