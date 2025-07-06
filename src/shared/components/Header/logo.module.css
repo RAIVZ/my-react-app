@@ -5,8 +5,8 @@
   gap: 10px;
 }
 .logoText {
-  font-family: "UncialAntiqua";
-  font-weight: 400;
+  font-family: "HeliosExt", cursive;
+  font-weight: 700;
   font-size: 16px;
   color: rgb(255, 255, 255);
   user-select: none;

@@ -44,13 +44,10 @@ body {
   padding: 0;
 }
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: center;
   width: 100%;
-  text-align: center;
-  box-sizing: border-box;
+  height: auto !important;
+  margin: 0 auto;
+  overflow: auto;
 }
 
 .App-logo {
