@@ -1,10 +1,12 @@
 import React from "react";
 import Header from "../shared/components/Header/Header";
-import "./App.css";
+import Main from "../shared/components/Main/main";
+import style from "./App.module.css";
 const App = () => {
   return (
-    <div className="app-wrapper">
+    <div className={style.wrapper}>
       <Header />
+      <Main />
     </div>
   );
 };

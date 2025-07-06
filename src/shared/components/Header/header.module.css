@@ -1,12 +1,22 @@
 header {
-  position: relative;
+  display: flex;
+  background-color: #004280;
+  height: 50px;
+  position: fixed;
+  z-index: 10;
   top: 0;
   left: 0;
   right: 0;
+  align-items: center;
+  margin: 0 auto;
+}
+.HeadContent {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #0c1212;
-  padding: 0 20px;
-  height: 80px;
+  padding: 0px 30px;
 }

@@ -7,13 +7,13 @@ const Menu = () => {
       <nav className={style.navMenu}>
         <ul className={style.navList}>
           <li className={style.navItem}>
-            <a href="/">ГЛАВНАЯ</a>
+            <a href="/">Главная</a>
           </li>
           <li className={style.navItem}>
-            <a href="/">ТАВЕРНА</a>
+            <a href="/">Статьи</a>
           </li>
           <li className={style.navItem}>
-            <a href="/">НОВОСТИ</a>
+            <a href="/">Контакты</a>
           </li>
         </ul>
       </nav>

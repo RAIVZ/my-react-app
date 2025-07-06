@@ -1,16 +1,16 @@
-import React from 'react'
-import style from './header.module.css'
-import Logo from './logo';
-import Menu from './menu'
-import Profil from './profil'
+import React from "react";
+import style from "./header.module.css";
+import Logo from "./logo";
+import Menu from "./menu";
 
 const Header = () => {
-    return (
+  return (
     <header className={style.header}>
+      <div className={style.HeadContent}>
         <Logo />
         <Menu />
-        <Profil />
+      </div>
     </header>
-    );
-}
+  );
+};
 export default Header;
